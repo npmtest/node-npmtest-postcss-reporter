@@ -1,6 +1,6 @@
 # npmtest-postcss-reporter
 
-#### test coverage for  [postcss-reporter (v3.0.0)](https://github.com/postcss/postcss-reporter)  [![npm package](https://img.shields.io/npm/v/npmtest-postcss-reporter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-postcss-reporter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-postcss-reporter.svg)](https://travis-ci.org/npmtest/node-npmtest-postcss-reporter)
+#### basic test coverage for  [postcss-reporter (v3.0.0)](https://github.com/postcss/postcss-reporter)  [![npm package](https://img.shields.io/npm/v/npmtest-postcss-reporter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-postcss-reporter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-postcss-reporter.svg)](https://travis-ci.org/npmtest/node-npmtest-postcss-reporter)
 
 #### Log PostCSS messages in the console
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-postcss-reporter/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-postcss-reporter/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-postcss-reporter/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-postcss-reporter/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-postcss-reporter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-postcss-reporter/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-postcss-reporter/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-postcss-reporter/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-postcss-reporter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-postcss-reporter/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-postcss-reporter/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-postcss-reporter/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "test": "npm run lint && tape test",
         "visual": "node test/visual.js"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
